@@ -1,0 +1,64 @@
+.subscride{
+
+
+&__title{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0.675;
+    text-align: left;
+    padding-top: 150px;
+    z-index: 85;
+}
+
+    &__subname{
+      color: black;
+      font-size: 20px;
+      text-align: left;
+      padding-top: 15px;
+      z-index: 85;
+      width: 600px;
+        }
+      
+      &__form{
+        padding-top:15px ;
+        display: flex;
+      }
+
+    &__email{
+        width: 480px;
+        height: 45px;
+    }
+    &__img{
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-width: 100%;
+      height: 100%;
+      z-index: 600;
+    }
+      &__button{
+        font-size: 20px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        line-height: 1.35;
+        width: 150px;
+        height: 46px;
+        border: none;
+        margin:0 auto;
+
+        text-decoration: none;
+        background-color: #96b92c;
+
+      }
+      &__button:hover{
+        background-color: #79bb29;
+        text-decoration: none;
+        border: none;
+        color: rgb(0, 0, 0);
+      }
+            
+        
+        
+    
+}   

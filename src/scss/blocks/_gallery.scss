@@ -1,0 +1,53 @@
+.gallery{
+    background-color: yellow;
+    
+    &__name {
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight:bold;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 110px;
+    }
+    &__subname {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center; 
+    z-index: 90;
+    width: 600px;
+    margin-top: 15px;
+    padding-bottom: 40px;
+    }
+    &__img{
+        margin-top: 0;
+        margin-bottom: 25px;
+        position: relative;
+    }
+    &__button{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 170px;
+    height: 55px; 
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(75, 138, 180);
+    border: none;
+    
+    }
+    &__button:hover{
+        background-color: rgb(50, 129, 182);
+        color: black;
+
+
+    }
+    &__end{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        font-family: 'Raleway', sans-serif;
+    }
+  
+}
